@@ -8,18 +8,24 @@
     app:layout_editor_absoluteY="81dp">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="61dp"
-        android:contentDescription="@string/placeholder"
-        android:scaleType="centerCrop"
+        android:id="@+id/imageView4"
+        android:layout_width="414dp"
+        android:layout_height="427dp"
         android:src="@drawable/singapore"
-        app:layout_constraintDimensionRatio="w,16:9"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_editor_absoluteX="100dp"
-        app:layout_editor_absoluteY="68dp" />
+        app:layout_constraintVertical_bias="0.43" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </android.support.constraint.ConstraintLayout>
